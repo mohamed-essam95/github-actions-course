@@ -28,7 +28,7 @@ jobs:
   
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: 03-app-dotnet
+      working-directory: 03-dotnet-workflow
       
     - name: Build
       run: dotnet build --no-restore
